@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                // "/home/xqc/local/openwrt/staging_dir/target-aarch64_cortex-a72_musl/usr/include",
+                // "/home/xqc/local/openwrt/staging_dir/toolchain-aarch64_cortex-a72_gcc-13.3.0_musl/include",
+                "/usr/include"
+            ],
+            "defines": [],
+            "configurationProvider": "ms-vscode.makefile-tools",
+            "compilerPath": "/home/xqc/local/openwrt/staging_dir/toolchain-aarch64_cortex-a72_gcc-13.3.0_musl/bin/aarch64-openwrt-linux-gcc"
+        }
+    ],
+    "version": 4
+}
