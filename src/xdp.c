@@ -19,7 +19,7 @@ struct packet_info
     __u32 src_ip;
     __u32 dst_ip;
     __u8 protocol;
-};
+} __attribute__((packed));
 
 struct vlan_hdr
 {
